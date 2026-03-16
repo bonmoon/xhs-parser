@@ -78,6 +78,7 @@ async function fetchNote(noteId) {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
     'Accept-Language': 'zh-CN,zh;q=0.9',
     'Referer': 'https://www.xiaohongshu.com/',
+    'Cookie': process.env.XHS_COOKIE || '',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'same-origin',
