@@ -1,0 +1,12 @@
+{
+  "name": "xhs-media-parser",
+  "version": "1.0.0",
+  "description": "小红书无水印媒体解析 API",
+  "main": "api/parse.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
